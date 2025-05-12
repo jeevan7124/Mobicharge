@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "app/home.jsx", "app/history.jsx", "app/index.jsx", "app/ChargingCompletion.jsx", "app/admin-home.jsx", "app/bookAppointment.jsx", "app/login.jsx", "app/PaymentOptions.jsx", "app/profile.jsx", "app/signup.jsx", "app/track-vehicle.jsx", "app/ViewAppointment.jsx"  ]
+}

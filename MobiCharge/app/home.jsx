@@ -89,7 +89,7 @@ const Home = () => {
 
         <TouchableOpacity
           style={styles.websiteButton}
-          onPress={() => Linking.openURL('http://192.168.1.108:3000')}
+          onPress={() => Linking.openURL('http://192.168.1.77:3000')}
         >
           <Text style={styles.websiteButtonText}>Visit Website</Text>
           <Ionicons name='globe-outline' size={24} color='#fff' />

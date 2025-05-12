@@ -68,7 +68,7 @@ const Profile = () => {
         return;
       }
 
-      const response = await axios.get('http://100.64.220.10:5000/api/user/profile', {
+      const response = await axios.get('http://192.168.1.77:5000/api/user/Profile', {
         headers: { Authorization: `Bearer ${token}` },
         timeout: 5000,
       });
@@ -105,7 +105,7 @@ const Profile = () => {
   
     try {
       const response = await axios.put(
-        'http://100.64.220.10r:5000/api/user/profile',
+        'http://192.168.1.77:5000/api/user/profile',
         newUserData,
         {
           headers: {
